@@ -37,9 +37,9 @@ const Contact = () => {
          gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
+            <input type="text" placeholder="Nombre" />
+            <input type="Email" placeholder="Correo electrónico" />
+            <textarea placeholder="Mensaje" rows={10}></textarea>
             <button className="btn-primary w-fit">Enviar mensaje</button>
           </form>
           <div className="flex flex-col  gap-7 ">

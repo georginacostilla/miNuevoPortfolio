@@ -1,7 +1,10 @@
-import React from "react";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div className="bg-gray-800 text-sm p-4 text-center text-white">
+      Copyright © 2025 Georgina Costilla - Todos los derechos reservados.
+    </div>
+  );
 };
 
 export default Footer;

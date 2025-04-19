@@ -23,7 +23,7 @@ const About = () => {
                   Comunicación Social. Actualmente me encuentro escribiendo mi tesis de Licenciatura en la UNT.
                   <br />
                   Complementé mi formación académica con distintas becas y especializaciones:
-                  <ol className="list-disc list-inside">
+                  <ol className="text-justify leading-7 list-disc list-inside">
                     <li>Programación Full Stack (Beca en Rolling Code School, 2023)</li>
                     <li>Especialización en ReactJS (Rolling Code School, 2024)</li>
                     <li>Backend developer, trabajando con NestJS, Swagger y PostgreSQL (Beca en Vortex Software, 2024)</li>
@@ -57,12 +57,12 @@ const About = () => {
                 />
               </div>
             </div> */}
-            <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
+            <div className="flex-1 md:mt-0 flex justify-center items-center">
               <div className="w-48 h-48 sm:w-64 sm:h-64 relative">
                 <img
                   src={aboutImg}
                   alt="Georgina Costilla"
-                  className="w-full h-full object-cover rounded-full border-4 border-primary shadow-lg"
+                  className="w-full h-full object-cover rounded-full border-4 border-primary shadow-lg mt-6"
                 />
               </div>
             </div>

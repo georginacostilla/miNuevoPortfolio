@@ -24,7 +24,7 @@ const About = () => {
                   <br />
                   Complementé mi formación académica con distintas becas y especializaciones:
                   <ol className="text-justify leading-7 list-disc list-inside">
-                    <li>Programación Full Stack (Beca en Rolling Code School, 2023)</li>
+                    <li>Programación FullStack (Beca en Rolling Code School, 2023)</li>
                     <li>Especialización en ReactJS (Rolling Code School, 2024)</li>
                     <li>Backend developer, trabajando con NestJS, Swagger y PostgreSQL (Beca en Vortex Software, 2024)</li>
                   </ol>

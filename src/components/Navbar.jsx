@@ -7,11 +7,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const menuLinks = [
-    { name: "INICIO", link: "#home" },
+    { name: "INICIO", link: "#menu" },
     { name: "SOBRE MI", link: "#about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROYECTOS", link: "#projects" },
-    { name: "CONTACTO", link: "#contact" },
+    { name: "STACK TECNOLOGICO", link: "#skills" },
+    { name: "PROYECTOS", link: "#proyectos" },
+    { name: "TESTIMONIOS", link: "#testimonios" },
+    { name: "CONTACTO", link: "#contacto" },
   ];
 
   useEffect(() => {
@@ -28,11 +29,9 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <img
-            src={logo}
-            alt="Logo del Portafolio"
-            className="h-16 w-auto"
-          />
+        <a href="#menu" className="flex items-center">
+          <img src={logo} alt="Logo" className="h-16 w-auto" />
+        </a>
         </div>
         <div
           className={` ${sticky ? "md:bg-white/0 bg-white" : "bg-white"

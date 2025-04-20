@@ -1,10 +1,10 @@
 import React from "react";
 import Hero from "./components/Hero";
-import About from "./components/About";
+import SobreMi from "./components/SobreMi";
 import Skills from "./components/Skills";
-import Project from "./components/Project";
-import Testimonies from "./components/Testimonies";
-import Contact from "./components/Contact";
+import Proyectos from "./components/Proyectos";
+import Testimonios from "./components/Testimonios";
+import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bot from "./components/Bot";
@@ -15,11 +15,11 @@ const App = () => {
       <Navbar />
       <Bot />
       <Hero />
-      <About />
+      <SobreMi />
       <Skills />
-      <Project />
-      <Testimonies />
-      <Contact />
+      <Proyectos />
+      <Testimonios />
+      <Contacto />
       <Footer />
     </div>
   );

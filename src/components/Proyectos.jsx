@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/images/project-1.png";
+import projecto1 from "../assets/images/cardsPoke.png";
 import project2 from "../assets/images/project-2.jpg";
 import project3 from "../assets/images/project-3.jpg";
 import project4 from "../assets/images/project-4.jpg";
@@ -8,13 +8,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
-const Project = () => {
+const Proyectos = () => {
   const projects = [
     {
-      img: project1,
-      name: "Movie App",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://myreactflix.netlify.app",
+      img: projecto1,
+      name: "Cards Poke",
+      github_link: "https://github.com/georginacostilla/pruebaTecnica-RAppID",
+      live_link: "https://cardspoke.netlify.app/",
     },
     {
       img: project2,
@@ -43,12 +43,12 @@ const Project = () => {
     },
   ];
   return (
-    <section id="projects" className="py-10 text-white">
+    <section id="proyectos" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Projects</span>
+          Mis <span className="text-primary">Proyectos</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
+        <p className="text-gray-400 mt-3 text-lg">Trabajos destacados</p>
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
@@ -88,7 +88,7 @@ const Project = () => {
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
-                      Live Demo
+                      Ver sitio
                     </a>
                   </div>
                 </div>
@@ -101,4 +101,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Proyectos;

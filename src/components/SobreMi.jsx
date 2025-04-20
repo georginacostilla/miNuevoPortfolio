@@ -1,6 +1,6 @@
 import aboutImg from "../assets/images/sobreMi.png";
 
-const About = () => {
+const SobreMi = () => {
 
   const info = [
     { text: "Años de formación", count: "05" },
@@ -19,14 +19,14 @@ const About = () => {
             <div className="p-2">
               <div className="text-gray-300 my-3">
                 <p className="text-justify leading-7 w-11/12 mx-auto">
-                  Mi nombre es Georgina, soy Programadora graduada en la UTN-FRT y Técnica Universitaria en Ciencias de la
-                  Comunicación Social. Actualmente me encuentro escribiendo mi tesis de Licenciatura en la UNT.
+                  Mi nombre es Georgina, soy <strong>Programadora</strong> recibida en la <strong>UTN-FRT</strong> y <strong>Técnica Universitaria en Ciencias de la
+                  Comunicación Social graduada en la <strong>UNT</strong>.</strong> Actualmente me encuentro escribiendo mi tesis de Licenciatura.
                   <br />
                   Complementé mi formación académica con distintas becas y especializaciones:
                   <ol className="text-justify leading-7 list-disc list-inside">
-                    <li>Programación FullStack (Beca en Rolling Code School, 2023)</li>
-                    <li>Especialización en ReactJS (Rolling Code School, 2024)</li>
-                    <li>Backend developer, trabajando con NestJS, Swagger y PostgreSQL (Beca en Vortex Software, 2024)</li>
+                    <li><strong>Programación FullStack</strong> (Beca en Rolling Code School, 2023)</li>
+                    <li><strong>Especialización en ReactJS</strong> (Rolling Code School, 2024)</li>
+                    <li><strong>Backend developer</strong>, trabajando con NestJS, Swagger y PostgreSQL (Beca en Vortex Software, 2024)</li>
                   </ol>
                   Mi objetivo siempre ha sido fusionar los conocimientos de Comunicación y Programación para potenciar mi desarrollo personal, profesional y futuro laboral.
                 </p>
@@ -73,4 +73,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SobreMi;

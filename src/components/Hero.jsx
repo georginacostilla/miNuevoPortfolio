@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <section
-      id="home"
+      id="menu"
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center">
@@ -37,7 +37,7 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Fullstack Developer
           </h4>
-          <button className="btn-primary mt-8">Contáctame</button>
+          <h4 className="btn-primary mt-8">Contáctame</h4>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {redes.map(({ icon, url }) => (
               <a

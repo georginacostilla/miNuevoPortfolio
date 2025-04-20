@@ -1,5 +1,5 @@
 
-const Contact = () => {
+const Contacto = () => {
   const contacto_info = [
     {
       logo: "mail",
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-10 px-3 text-white">
+    <section id="contacto" className="py-10 px-3 text-white">
       <div className="text-center mt-6">
         <h3 className="text-4xl font-semibold">
           Contácta <span className="text-primary">me</span>
@@ -93,7 +93,7 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacto;
 
 // const Contact = () => {
 

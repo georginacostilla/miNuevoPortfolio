@@ -1,6 +1,6 @@
 
 const Contact = () => {
-  const contact_info = [
+  const contacto_info = [
     {
       logo: "mail",
       text: "georginacostilla.gc@gmail.com",
@@ -68,7 +68,7 @@ const Contact = () => {
 
           {/* Info de contacto */}
           <div className="flex flex-col gap-7">
-            {contact_info.map((contact, i) => (
+            {contacto_info.map((contact, i) => (
               <div
                 key={i}
                 className="flex flex-row text-left gap-4 flex-wrap items-center"

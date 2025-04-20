@@ -77,7 +77,7 @@ export default function TestimoniosCarousel() {
   return (
     <section
       id="testimonios"
-      className="flex justify-center items-center py-12 bg-gray-100"
+      className="flex justify-center items-center py-12"
     >
       <div className="relative max-w-xl w-full text-center p-6 bg-white shadow-xl rounded-2xl">
         <img

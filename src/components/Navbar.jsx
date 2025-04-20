@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logoPortfolio from "../assets/images/LogoPortfolio.png";
+import logo from '../assets/images/logoPortfolio.png';
 
 const Navbar = () => {
 
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <img
-            src={logoPortfolio}
+            src={logo}
             alt="Logo del Portafolio"
             className="h-16 w-auto"
           />

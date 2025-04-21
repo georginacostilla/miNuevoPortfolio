@@ -2,11 +2,13 @@
 const Skills = () => {
 
   const skills = [
-    { logo: "logo-html5", name: "HTML", count: 86 },
-    { logo: "logo-css3", name: "CSS", count: 85 },
-    { logo: "brush", name: "Bootstrap", count: 70 },
-    { logo: "logo-javascript", name: "JavaScript", count: 88 },
-    { logo: "logo-react", name: "React JS", count: 80 },
+    { logo: "logo-html5", name: "HTML", level: "Advanced", count: 86 },
+    { logo: "logo-css3", name: "CSS", level: "Advanced", count: 85 },
+    { logo: "brush", name: "Bootstrap", level: "Intermediate", count: 70 },
+    { logo: "color-palette", name: "Tailwind CSS", level: "Intermediate", count: 70 },
+    { logo: "logo-javascript", name: "JavaScript", level: "Advanced", count: 88 },
+    { logo: "logo-typescript", name: "TypeScript", level: "Intermediate", count: 75 },
+    { logo: "logo-react", name: "React JS", level: "Intermediate", count: 80 },
     { logo: "logo-nodejs", name: "Node.js", count: 40 },
     { logo: "construct", name: "NestJS", count: 45 },
     { logo: "layers", name: "Prisma", count: 68 },
@@ -16,6 +18,7 @@ const Skills = () => {
     { logo: "logo-github", name: "Git / GitHub", count: 90 },
   ];
 
+
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">
       <div className="mt-8 text-gray-100 text-center">
@@ -24,7 +27,7 @@ const Skills = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Mis conocimientos</p>
         <div className="overflow-x-auto mt-12 p-3">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-x-1 gap-y-4 justify-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-7 gap-x-1 gap-y-4 justify-items-center">
             {skills.map((skill, i) => (
               <div
                 key={i}

@@ -1,47 +1,47 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import projecto1 from "../assets/images/cardsPoke.png";
-import project2 from "../assets/images/project-2.jpg";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
+import { Pagination, Autoplay } from "swiper";
+import proyecto1 from "../assets/images/cardsPoke.png";
+import proyecto2 from "../assets/images/devsDuff.png";
+import proyecto3 from "../assets/images/dressCode.png";
+import proyecto4 from "../assets/images/sge.png";
+import proyecto5 from "../assets/images/apiEcommerce.png";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay } from "swiper";
 
 const Proyectos = () => {
   const projects = [
     {
-      img: projecto1,
+      img: proyecto1,
       name: "Cards Poke",
       github_link: "https://github.com/georginacostilla/pruebaTecnica-RAppID",
       live_link: "https://cardspoke.netlify.app/",
     },
     {
-      img: project2,
-      name: "Job search Web App",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
-      live_link: "https://myjobsearch.netlify.app",
+      img: proyecto2,
+      name: "Devs Duff",
+      github_link: "https://github.com/georginacostilla/DevsDuffs",
+      live_link: "https://devsduff.netlify.app/",
     },
     {
-      img: project3,
-      name: "Highking",
-      github_link: "https://github.com/Sridhar-C-25/highking",
-      live_link: "https://highking01.netlify.app",
+      img: proyecto3,
+      name: "Dress Code",
+      github_link: "https://github.com/georginacostilla/e-commerceDressCode",
+      live_link: "https://rollingcodeschool-dresscode.netlify.app/",
     },
     {
-      img: project4,
-      name: "React Nav",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
+      img: proyecto4,
+      name: "SGE",
+      github_link: "https://github.com/georginacostilla/proyectoFinalReactAdv",
+      live_link: "https://github.com/georginacostilla/proyectoFinalReactAdv",
     },
     {
-      img: project5,
-      name: "Vue Country",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
+      img: proyecto5,
+      name: "API e-commerce",
+      github_link: "https://github.com/georginacostilla/proyecto-nest-grupo1",
+      live_link: "https://github.com/georginacostilla/proyecto-nest-grupo1",
     },
   ];
+
   return (
     <section id="proyectos" className="py-10 text-white">
       <div className="text-center">
@@ -51,10 +51,10 @@ const Proyectos = () => {
         <p className="text-gray-400 mt-3 text-lg">Trabajos destacados</p>
       </div>
       <br />
-      <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
+      <div className="max-w-6xl gap-6 px-5 mx-auto items-center relative flex justify-center">
         <div className="lg:w-2/3 w-full">
           <Swiper
-            slidesPerview={1.2}
+            slidesPerView={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
@@ -63,7 +63,7 @@ const Proyectos = () => {
             }}
             loop={true}
             autoplay={{
-              delay: 3000,
+              delay: 2000,
             }}
             pagination={{
               clickable: true,

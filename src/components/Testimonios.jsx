@@ -1,3 +1,4 @@
+import { useState } from "react";
 import imgChuma from "../assets/images/sebasChumacero.png";
 import imgMaxi from "../assets/images/maxiGiordani.jpg";
 import imgAri from "../assets/images/ariAlderete.png";
@@ -57,8 +58,6 @@ const testimonios = [
   },
 ];
 
-import { useState } from "react";
-
 export default function TestimoniosCarousel() {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -76,11 +75,13 @@ export default function TestimoniosCarousel() {
 
   return (
     <>
-      <h3 className="text-center text-4xl font-semibold text-primary mt-20">Testimonios</h3>
+      <h3 className="text-center text-4xl font-semibold mt-20">
+        Testimonios <span className="text-primary">reales</span>
+      </h3>
       <p className="text-center text-gray-400 mt-3 text-lg">Estas son algunas de las opiniones de colegas y/o compañeros de carrera sobre mi trabajo.</p>
       <section
         id="testimonios"
-        className="flex justify-center items-center py-12"
+        className="flex justify-center items-center py-12 m-5"
       >
         <div className="relative max-w-xl w-full text-center p-6 bg-white shadow-xl rounded-2xl">
           <img
@@ -88,7 +89,7 @@ export default function TestimoniosCarousel() {
             alt={testimonios[activeIndex].alt}
             className="mx-auto rounded-full w-40 h-40 object-cover mb-4"
           />
-          <p className="italic text-gray-700 mb-4">
+          <p className="italic text-gray-700 mb-4 p-8">
             "{testimonios[activeIndex].texto}"
           </p>
           <div className="text-sm text-gray-600">
@@ -98,14 +99,14 @@ export default function TestimoniosCarousel() {
 
           <button
             onClick={handlePrev}
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-white shadow rounded-full hover:bg-gray-200"
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-primary shadow rounded-full hover:bg-gray-400"
           >
             <ion-icon name="chevron-back-outline" size="large"></ion-icon>
           </button>
 
           <button
             onClick={handleNext}
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-white shadow rounded-full hover:bg-gray-200"
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-primary shadow rounded-full hover:bg-gray-400"
           >
             <ion-icon name="chevron-forward-outline" size="large"></ion-icon>
           </button>

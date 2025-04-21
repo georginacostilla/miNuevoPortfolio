@@ -10,7 +10,7 @@ const SobreMi = () => {
 
   return (
     <>
-      <section id="about" className="py-10 text-white">
+      <section id="sobreMi" className="py-10 text-white">
         <div className="text-center mt-8">
           <h3 className="text-4xl font-semibold">
             Sobre <span className="text-primary">mi</span>
@@ -18,18 +18,23 @@ const SobreMi = () => {
           <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
             <div className="p-2">
               <div className="text-gray-300 my-3">
-                <p className="text-justify leading-7 w-11/12 mx-auto">
-                  Mi nombre es Georgina, soy <strong>Programadora</strong> recibida en la <strong>UTN-FRT</strong> y <strong>Técnica Universitaria en Ciencias de la
-                  Comunicación Social graduada en la <strong>UNT</strong>.</strong> Actualmente me encuentro escribiendo mi tesis de Licenciatura.
-                  <br />
-                  Complementé mi formación académica con distintas becas y especializaciones:
-                  <ol className="text-justify leading-7 list-disc list-inside">
+                <>
+                  <p className="text-justify leading-7 w-11/12 mx-auto">
+                    Mi nombre es Georgina, soy <strong>Programadora</strong> recibida en la <strong>UTN-FRT</strong> y <strong>Técnica Universitaria en Ciencias de la
+                      Comunicación Social graduada en la <strong>UNT</strong>.</strong> Actualmente me encuentro escribiendo mi tesis de Licenciatura.
+                    <br />
+                    Complementé mi formación académica con distintas becas y especializaciones:
+                  </p>
+                  <ol className="text-justify leading-7 list-disc list-inside w-11/12 mx-auto">
                     <li><strong>Programación FullStack</strong> (Beca en Rolling Code School, 2023)</li>
                     <li><strong>Especialización en ReactJS</strong> (Rolling Code School, 2024)</li>
                     <li><strong>Backend developer</strong>, trabajando con NestJS, Swagger y PostgreSQL (Beca en Vortex Software, 2024)</li>
                   </ol>
-                  Mi objetivo siempre ha sido fusionar los conocimientos de Comunicación y Programación para potenciar mi desarrollo personal, profesional y futuro laboral.
-                </p>
+                  <p className="text-justify leading-7 list-disc list-inside w-11/12 mx-auto">
+                    Mi objetivo siempre ha sido fusionar los conocimientos de Comunicación y Programación para potenciar mi desarrollo personal,
+                    profesional y futuro laboral.
+                  </p>
+                </>
                 <div className="flex mt-10 items-center gap-7">
                   {info.map((content) => (
                     <div key={content.text}>
@@ -43,7 +48,7 @@ const SobreMi = () => {
                 </div>
                 <br />
                 <br />
-                <a href="./src/assets/CV_GeorginaCostilla.pdf" download>
+                <a href="./src/assets/CV-Georgina-Costilla.pdf" download>
                   <button className="btn-primary, text-primary">Descargar CV</button>
                 </a>
               </div>

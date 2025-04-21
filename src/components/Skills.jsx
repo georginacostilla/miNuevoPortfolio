@@ -20,12 +20,12 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">
-      <div className="mt-8 text-gray-100 text-center">
+      <div className="mt-14 text-gray-100 text-center">
         <h3 className="text-4xl font-semibold">
           Stack <span className="text-primary">tecnológico</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Mis conocimientos</p>
-        <div className="overflow-x-auto mt-12 p-3">
+        <div className="overflow-x-auto mt-12 mb-5 p-3">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-7 gap-x-1 gap-y-4 justify-items-center">
             {skills.map((skill, i) => (
               <div

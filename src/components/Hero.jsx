@@ -1,4 +1,4 @@
-import hero from "../assets/images/skills.png";
+import imgStack from "../assets/images/skills.png";
 
 const Hero = () => {
   const redes = [
@@ -22,7 +22,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center">
-        <img src={hero} alt="Logos de las skills" className="w-2/4 sm:w-2/3 md:w-2/3 h-auto object-contain" />
+        <img src={imgStack} alt="Logos de las skills" className="w-2/4 sm:w-2/3 md:w-2/3 h-auto object-contain" />
       </div>
 
       <div className="flex-1">
@@ -32,7 +32,7 @@ const Hero = () => {
               ¡Hola!
               <br />
             </span>
-            Mi nombre es <span>Georgina Costilla</span>
+            <p className="p-1">Mi nombre es <span>Georgina Costilla</span></p>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Fullstack Developer

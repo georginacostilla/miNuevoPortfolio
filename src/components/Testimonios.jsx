@@ -75,10 +75,13 @@ export default function TestimoniosCarousel() {
 
   return (
     <>
-      <h3 className="text-center text-4xl font-semibold mt-20">
-        Testimonios <span className="text-primary">reales</span>
-      </h3>
-      <p className="text-center text-gray-400 mt-3 text-lg">Estas son algunas de las opiniones de colegas y/o compañeros de carrera sobre mi trabajo.</p>
+      <div className="p-3">
+        <h3 className="text-center text-4xl font-semibold mt-20">
+          Testimonios <span className="text-primary">reales</span>
+        </h3>
+        <p className="text-center text-gray-400 mt-3 text-lg">Estas son algunas de las
+          opiniones de colegas y/o compañeros de carrera sobre mi trabajo.</p>
+      </div>
       <section
         id="testimonios"
         className="flex justify-center items-center py-12 m-5"

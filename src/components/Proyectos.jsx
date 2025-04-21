@@ -43,7 +43,7 @@ const Proyectos = () => {
   ];
 
   return (
-    <section id="proyectos" className="py-10 text-white">
+    <section id="proyectos" className="py-10 text-white mt-16">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           Mis <span className="text-primary">Proyectos</span>

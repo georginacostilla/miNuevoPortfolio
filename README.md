@@ -20,8 +20,8 @@ Este es mi portfolio personal donde muestro los proyectos que desarrollé, mi st
 
 ## 👀 Demo
 
-👉 [Ver portfolio en línea](https://portfolio-georginacostilla.netlify.app/)
+[Ver portfolio en línea](https://portfolio-georginacostilla.netlify.app/)
 
 ## 📫 Contacto
 
-Podés escribirme por [LinkedIn](https://www.linkedin.com/in/georgina-costilla/) o a **georginacostilla.gc@gmail.com**.
+Podés escribirme por [LinkedIn](https://www.linkedin.com/in/georgina-costilla/) o a **georginacostilla.gc@gmail.com**

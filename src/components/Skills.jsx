@@ -7,7 +7,7 @@ const Skills = () => {
     { logo: "brush", name: "Bootstrap", level: "Intermediate", count: 70 },
     { logo: "color-palette", name: "Tailwind CSS", level: "Intermediate", count: 70 },
     { logo: "logo-javascript", name: "JavaScript", level: "Advanced", count: 88 },
-    { logo: "logo-typescript", name: "TypeScript", level: "Intermediate", count: 75 },
+    { logo: "code-slash", name: "TypeScript", level: "Intermediate", count: 75 },
     { logo: "logo-react", name: "React JS", level: "Intermediate", count: 80 },
     { logo: "logo-nodejs", name: "Node.js", count: 40 },
     { logo: "construct", name: "NestJS", count: 45 },
@@ -17,7 +17,6 @@ const Skills = () => {
     { logo: "document-text", name: "Swagger", count: 60 },
     { logo: "logo-github", name: "Git / GitHub", count: 90 },
   ];
-
 
   return (
     <section id="skills" className="py-10 bg-gray-800 relative">

@@ -11,7 +11,7 @@ const SobreMi = () => {
   return (
     <>
       <section id="sobreMi" className="py-10 text-white">
-        <div className="text-center mt-8">
+        <div className="text-center">
           <h3 className="text-4xl font-semibold">
             Sobre <span className="text-primary">mi</span>
           </h3>
@@ -49,7 +49,7 @@ const SobreMi = () => {
                 <br />
                 <br />
                 <a href="./src/assets/CV-Georgina-Costilla.pdf" download>
-                  <button className="btn-primary, text-primary">Descargar CV</button>
+                  <button className="btn-primary, text-primary text-lg">Descargar CV</button>
                 </a>
               </div>
             </div>

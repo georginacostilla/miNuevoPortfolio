@@ -76,7 +76,7 @@ export default function TestimoniosCarousel() {
   return (
     <>
       <div className="p-3">
-        <h3 className="text-center text-4xl font-semibold mt-20">
+        <h3 className="text-center text-4xl font-semibold mt-16">
           Testimonios <span className="text-primary">reales</span>
         </h3>
         <p className="text-center text-gray-400 mt-3 text-lg">Estas son algunas de las
@@ -86,30 +86,30 @@ export default function TestimoniosCarousel() {
         id="testimonios"
         className="flex justify-center items-center py-12 m-5"
       >
-        <div className="relative max-w-xl w-full text-center p-6 bg-white shadow-xl rounded-2xl">
+        <div className="relative max-w-xl w-full text-center p-6 bg-gray-800 shadow-xl rounded-2xl">
           <img
             src={testimonios[activeIndex].img}
             alt={testimonios[activeIndex].alt}
             className="mx-auto rounded-full w-40 h-40 object-cover mb-4"
           />
-          <p className="italic text-gray-700 mb-4 p-8">
+          <p className="italic mb-4 p-8 text-gray-300">
             "{testimonios[activeIndex].texto}"
           </p>
-          <div className="text-sm text-gray-600">
+          <div className="text-sm text-gray-400">
             <p className="font-semibold">{testimonios[activeIndex].persona}</p>
             <p>{testimonios[activeIndex].ocupacion}</p>
           </div>
 
           <button
             onClick={handlePrev}
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-primary shadow rounded-full hover:bg-gray-400"
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 shadow"
           >
             <ion-icon name="chevron-back-outline" size="large"></ion-icon>
           </button>
 
           <button
             onClick={handleNext}
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 bg-primary shadow rounded-full hover:bg-gray-400"
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2"
           >
             <ion-icon name="chevron-forward-outline" size="large"></ion-icon>
           </button>
